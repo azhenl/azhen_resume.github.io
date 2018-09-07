@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人简历</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="bower_components/konva/konva.min.js"></script>
+	<script src="js/HistogramChart.js"></script>
+	</head>
+	<body>
+		<div class="nav-wraps">
+			<div class="nav-items">
+					<a href="#brief_introduction"class="nav-link icon-nav_home active ">
+					</a>
+					<span class="description">简介</span>
+				</div>
+				<div class="nav-items">
+					<a href="#base_information" class="nav-link icon-nav_exp"></a>
+					<span class="description">自我介绍</span>
+				</div>
+				<div class="nav-items">
+					<a href="#my_exp" class="nav-link icon-nav_exp"></a>
+					<span class="description">实习经历</span>
+				</div>
+				<div class="nav-items">
+					<a href="#personal_skill" class="nav-link icon-nav_skills"></a>
+					<span class="description">技能</span>
+				</div>
+				<div class="nav-items">
+					<a href="#works_show" class="nav-link icon-nav_works"></a>
+					<span class="description">作品集</span>
+				</div>
+				<div class="nav-items">
+					<a href="#contact-me" class="nav-link icon-nav_contact"></a>
+					<span class="description">联系我</span>
+				</div>
+			</div>
+		
+		<div class="big-banner" id="brief_introduction">	
+			<div class="banner-info">
+				<div class="w clearfix">
+					
+					<div class="reco-img">
+						<!--<img src="img/lwz-7.jpg/" alt="" />-->
+					</div>
+					<p class="hello">Hello, my name is Azhen</p>
+					<p class="hello-des">asgsdfhtfuyk,mgjhgdfdsfv</p>
+					<p class="brief-introdct">我叫李婉贞，<br />寻找一份前端开发的工作</p>
+					<div class="nav-go">
+						<p>></p>
+						<p>></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="base-information" id="base_information">
+			<div class="w">
+				<div class="title">基本信息</div>
+				<ul>
+					<li>
+						<div class="icon-img icon-i_age">							
+						</div>
+						<p>年龄/23</p>
+					</li>
+					<li>
+						<div class="icon-img icon-i_edu"></div>
+						<p>学历/本科</p>
+					</li>
+					<li>
+						<div class="icon-img icon-i_site"></div>
+						<p>毕业院校/信阳师范学院</p>
+						
+					</li>
+					<li>
+						<div class="icon-img icon-library_books"></div>
+						<p>本科专业/信管</p>
+					</li>
+					<li>
+						<div class="icon-img icon-phone"></div>
+						<p>联系方式/18153060936</p>
+					</li>
+					<li>
+						<div class="icon-img icon-nav_contact"></div>
+						<p>邮箱/1526516234@qq.com</p>
+					</li>
+			</ul>
+			</div>
+			
+		</div>
+		<div class="my-experience" id="my_exp">
+			<div class="w">
+				<h3 class="title">我的经历</h3>
+				<div class="work-wraps clearfix">
+					<div class="work-left">	
+						<div class="work-start">	
+							<div>GO</div>
+						</div>
+						<div class="work-cont" >
+							<ul id="work_cont">
+								<li>
+									<p>2018年</p>
+									<span>3月</span>
+									<em id="line"></em>
+								</li>
+								<li style="margin-top:100px">
+									<p>2018年</p>
+									<span>6月</span>
+									<em class="biye"id="line"></em>
+								</li>
+								<li style="margin-top:100px">
+									<p>2018年</p>
+									<span>3月-9月</span>
+									<em class="over"id="line"></em>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="work-right">
+						<ul>
+							<li>
+								<p class="p-title">信阳林志科技实习</p>
+								<p class="p-descrip">3月份开始在信阳林志科技有限公司实习，主要负责公司PC端网站的前端实现与维护，完善页面效果；完成鹿鸣友小说网站的整套界面开发；参与“互联网+透明厨房”微信小程序端的前端界面实现；学习前端开发相关知识,并应用到项目实战当中。目前学习了html、css、javascript、Bootstrap、jQuery、ajax、flex响应式布局等；熟练使用photoshop，熟悉网站页面的布局等。</p>
+								
+							</li>
+							<li>
+								<p class="p-title">毕业于信阳师范学院</p>
+								<p class="p-descrip">本科专业是信息管理与信息系统，主要课程有：数据结构、计算机原理、操作系统、C++、JAVA、数据库原理等理论知识;</p>
+							</li>
+							<li>
+								<p class="p-title">信阳林志科技实习结束</p>
+								<p class="p-descrip">实习的六个月,本人在公司主要负责页面的前端开发，配合后台人员实现产品前端界面效果与功能。实习虽结束，但我明白要想成为一名优秀的前端全栈开发工程师，我要学习的还有很多很多，但我不会畏惧与懈怠，执着地去探索！</p>
+							</li>
+						</ul>
+					</div>					
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		<div class="personal-skills" >
+				<div class="w">
+					<h3 class="title">个人技能</h3>
+					<div class="sklls"id="container">
+						<div class="skillset">
+							<p>
+								Html/css
+							</p>
+							<div class="progress">
+								<div class="process-bar"></div>
+							</div>
+						</div>
+						<div class="skillset">
+							<p>
+								Html/css
+							</p>
+							<div class="progress">
+								<div class="process-bar"></div>
+							</div>
+						</div>
+						<div class="skillset">
+							<p>
+								Html/css
+							</p>
+							<div class="progress">
+								<div class="process-bar"></div>
+							</div>
+						</div>
+						<div class="skillset">
+							<p>
+								Html/css
+							</p>
+							<div class="progress">
+								<div class="process-bar"></div>
+							</div>
+						</div>
+						<div class="skillset">
+							<p>
+								Html/css
+							</p>
+							<div class="progress">
+								<div class="process-bar"></div>
+							</div>
+						</div>
+						<div class="skillset">
+							<p>
+								Html/css
+							</p>
+							<div class="progress">
+								<div class="process-bar"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="works-gallery"id= "works_show">
+			<div class="w">
+				<h3 class="title">作品展示</h3>
+				<div class="work-show">
+					<a href="http://www.xymclz.com/index" class="shows">
+						<img src="img/al2.png" alt="" />
+					</a>
+					<a href="http://www.lumingyou.com" class="shows">
+						<img src="img/al4.png" alt="" />
+					</a>
+					<a href="javascript:;" class="shows">
+						<img src="img/al1 .png" alt="" />
+					</a>
+					<a href="javascript:;" class="shows">
+						<img src="img/al2.png" alt="" />
+					</a>
+					<a href="javascript:;" class="shows">
+						<img src="img/al4.png" alt="" />
+					</a>
+					<a href="javascript:;" class="shows">
+						<img src="img/al1 .png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="xingquaihao" id="contact-me">
+			<div class="w">
+				<div class="title">联系我</div>
+				<p><span>灵感</span><span>代码</span><span>梦想</span><span>未来</span></p>
+				<p>学习是一个充实愉悦的过程</p>
+				<p>注重效率，偏爱敏捷开发</p>
+				<p>喜欢尝试，期待新鲜事物</p>
+				<p>前端即兴趣，兴趣即未来</p>
+				<p>行路有良友，便是捷径</p>
+				<p>期待有机会与您共事！</p>
+				<p class="contact-link">
+					<a href="javascript:;"><span class="icon-contact_blog"></span></a>
+					<a href="javascript:;"><span class="icon-contact_github"></span></a>
+					<a href="javascript:;"><span class="icon-contact_wb"></span></a>
+					<a href="javascript:;"><span class="icon-contact_zh"></span></a>
+				</p>
+			</div>
+			
+		</div>
+		<div class="xingquaihao3"></div>
+		<div class="xingquaihao4"></div>
+		<div class="xingquaihao5"></div>
+		<div class="xingquaihao6"></div>
+<!--</div>-->
+
+<script>        
+		
+		
+	</script>
+	</body>
+	
+	
+</html>

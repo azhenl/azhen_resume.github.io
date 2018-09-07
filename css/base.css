@@ -1,0 +1,199 @@
+*{
+	margin: 0; 
+	padding: 0;	
+	text-decoration: none;
+	box-sizing: border-box;}
+img{
+	vertical-align: top;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;;
+}
+a:hover{
+	color:#008B8B;
+}
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+input {
+    vertical-align: middle;
+}
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+.font12{
+	font-size: 12px;
+}
+.w{
+	width: 1000px;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+/* ==========字体图标==============*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?bgu6y0');
+  src:  url('../fonts/icomoon.eot?bgu6y0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?bgu6y0') format('truetype'),
+    url('../fonts/icomoon.woff?bgu6y0') format('woff'),
+    url('../fonts/icomoon.svg?bgu6y0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-nav_contact:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-nav_exp:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-nav_home-1:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-nav_home:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-nav_skills:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-nav_works:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-i_age:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-i_edu:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-i_site:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-i_status:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-contact_blog:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-contact_github:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-contact_wb:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-contact_zh:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-add_location:before {
+  content: "\e567";
+}
+.icon-attach_file:before {
+  content: "\e226";
+}
+.icon-attachment:before {
+  content: "\e2bc";
+}
+.icon-phone:before {
+  content: "\e0cd";
+}
+.icon-format_align_justify:before {
+  content: "\e235";
+}
+.icon-library_books:before {
+  content: "\e02f";
+}
+.icon-local_florist:before {
+  content: "\e545";
+}
+.icon-local_offer:before {
+  content: "\e54e";
+}
+.icon-room:before {
+  content: "\e8b4";
+}
+.icon-mail_outline:before {
+  content: "\e0e1";
+}
+.icon-music_note:before {
+  content: "\e405";
+}
+.icon-phone_iphone:before {
+  content: "\e325";
+}
+.icon-polymer:before {
+  content: "\e8ab";
+}
+.icon-files:before {
+  content: "\e900";
+}
+.icon-paperclip:before {
+  content: "\e901";
+}
+.icon-tag:before {
+  content: "\e902";
+}
+.icon-mapmarker:before {
+  content: "\e903";
+}
+/*================*/

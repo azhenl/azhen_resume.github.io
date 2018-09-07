@@ -1,0 +1,581 @@
+
+body{
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	background-image:url(../img/banner-33.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.big-banner{
+	width: 100%;
+	background: url(../img/banner-22.jpg)no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+	font-size: 20px;
+	color: #eee;
+	line-height: 40px;
+	font-weight: 400;
+	position: relative;
+}
+.big-banner .nav-go{
+	position: absolute;
+	left:48%;
+	bottom: 10%;
+	animation: guideDown 1s infinite;
+}
+.big-banner .nav-go p{
+	font-size: 30px;
+	line-height: 20px;
+	transform: rotate(90deg);
+	opacity: .8;
+	
+}
+@keyframes guideDown{
+	from{
+		bottom:10%;
+		opacity: .5;
+	}
+	to{
+		bottom:2%;
+		opacity: 0;
+	}
+}
+p.hello{
+	font-size: 28px;
+}
+p.hello-des{
+	font-size: 14px;
+}
+p.brief-introdct{
+	margin-top:20px;
+	line-height: 30px;
+}
+.banner-info{
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%;
+	padding-top: 160px;
+}
+.reco-img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin:0 auto 50px;
+	overflow: hidden;
+	background-image: url(../img/lwz-7.jpg);
+	background-size: cover;
+}
+.reco-img img{
+	width: 100%;
+	height: 100%;
+}
+.clearfix::before,
+.clearfix::after{
+	content: " ";
+	display: block;
+	height: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.base-information{
+	width: 100%;
+	background-color: #e0e3da;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+.my-experience{
+	background-color: #fff;
+	background-size: 100%;
+		opacity: .5;
+}
+.personal-skills{
+	background-color: #e0e3da;
+	background-size: 100%;
+}
+.works-gallery{
+	background-color: #fff;
+	background-size: 100%;
+}
+.xingquaihao{
+	background-color: #e0e3da;
+	background-size: 100%;
+	opacity: .8;
+}
+
+.big-banner .nav{
+	margin-top:300px;
+}
+.big-banner .nav ul li{
+	float: left;
+}
+.big-banner .nav ul li a{
+	padding: 10px 50px;
+	border-top:1px solid rgba(247, 197, 106, 0.35) ;
+	border-bottom:1px solid rgba(247, 197, 106, 0.35);
+	font-size: 20px;
+	color: #333;
+}
+.big-banner .nav ul li a:hover{
+	color:#fff;
+	font-size: 24px;
+}
+/*基本信息*/
+.base-information{
+
+}
+.base-information .title{
+	padding-top: 80px;
+	padding-bottom: 10px;
+	margin-bottom: 56px;
+	border-bottom: 4px double rgba(247, 197, 106, 0.35);
+	font-size: 36px;
+	text-align: center;
+	color: #008B8B;
+	font-weight: 400;
+}
+
+.base-information .icon-img.icon-i_age::before{
+	font-family: 'icomoon';
+	font-size: 40px;
+	color: #fff;
+	line-height:90px;
+}
+.base-information .icon-img{
+	font-family: 'icomoon';
+	font-size: 40px;
+	color: #fff;
+	line-height:90px;
+}
+.base-information .icon-img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin:20px auto;
+	transition: transform 0.1s ease-out, background 0.2s, -webkit-transform 0.1s ease-out;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.1s ease-out, background 0.2s, -webkit-transform 0.1s ease-out;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.base-information .icon-img:hover{
+	transform: scale(.9);
+}
+
+.base-information .icon-img::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top:0;
+	box-shadow: 0 0 0 2px rgba(0,0,0,.5);
+	opacity: .2;
+	-webkit-transform: scale(.8);
+	transform: scale(.8);
+	 transition: transform .5s ease-out, box-shadow 1.5s, -webkit-transform 0.5s ease-out;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.base-information .icon-img:hover::after{
+	opacity: .1;
+	transform: scale(1.3);
+	box-shadow: 0 0 0 20px rgba(0,0,0,0);
+}
+
+/*================*/
+
+.base-information ul li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	margin:40px 0;
+}
+.base-information ul li p{
+	margin-top:20px;
+}
+
+.base-information ul li{
+	
+}
+
+/*实习经历*/
+
+.my-experience h3.title{
+	padding-top: 80px;
+	font-size: 36px;
+	text-align: center;
+	color: #008B8B;
+	font-weight: 400;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 4px double rgba(247, 197, 106, 0.35);
+}
+.work-wraps{}
+.work-left{
+	width: 40%;
+	float: left;
+}
+.work-start{
+	width: 320px;
+	height: 100px;
+	float: right;
+}
+.work-start div{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border:4px solid #999;
+	float: right;
+	text-align: center;
+	line-height: 70px;	
+	font-size: 30px;
+	color: #000;
+}
+.work-cont{
+	float: right;
+	width: 320px;
+	height:325px;
+	margin-top:-22px;
+	border-right: 8px solid #999;
+	margin-right: 35px;
+}
+.work-cont ul li{
+	margin-top:20px;
+	text-align: right;
+	position: relative;
+	
+}
+.work-cont ul li::after{
+	content: " ";
+	position: absolute;
+	right: -11px;
+	top:20px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: greenyellow;
+	display: block;
+	cursor: pointer;
+	border:1px solid rgba(255,255,255,0);
+	transform: scale(1);
+	transition: transform .2s ease-in,border .2s linear;
+}
+.work-cont ul li:hover::after{
+	transform: scale(1.5);
+	border:1px solid #fff;
+}
+.work-cont ul li:hover::after .p-title{
+	color:greenyellow;
+}
+.work-cont ul li p{
+	display: inline-block;
+	padding-right: 10px;
+}
+.work-cont ul li span{
+	display: inline-block;
+	font-size:30px;
+	font-weight: 400;
+	padding-right: 20px;
+}
+.work-cont ul li em{
+	display: inline-block;
+	height: 5px;
+	padding-left:0px;	
+	background-color: greenyellow;
+	transition: all 1s ease-in;
+}
+.work-cont ul li em.biye{
+	padding-left: 0px;
+	transition: all 1s linear;
+}
+#my_exp:hover ul li em{
+	padding-left:30px;
+}
+#my_exp:hover ul li em.biye{
+	padding-left:60px;
+}
+#my_exp:hover ul li em.over{
+	padding-left:90px;
+}
+.work-cont ul li em.over{
+	padding-left: 0px;
+}
+.work-right{
+	float: left;
+	width: 50%;
+	padding-top:40px;
+	padding-left: 20px;
+}
+.work-right ul li{
+	margin-top:20px;
+}
+.p-title{
+	font-size: 24px;
+}
+.p-descrip{
+	padding-top: 10px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+}
+/*======================*/
+
+.personal-skills .banner-info{
+	padding: 0;
+}
+.personal-skills .title{
+	padding-top: 80px;
+	border-bottom: 4px double rgba(247, 197, 106, 0.35);
+	font-size: 36px;
+	text-align: center;
+	color: #008B8B;
+	padding-bottom: 10px;
+}
+.sklls{
+	padding-top: 30px;
+	cursor: pointer;
+}
+.skillset{
+	float: left;
+	margin-left: 60px;
+}
+.skillset p{
+	font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.progress{
+	margin-bottom: 50px;
+	height: 12px;
+	width: 420px;
+	background-color: #8DD4F7;
+}
+.process-bar{
+	width: 80%;
+	height:12px;
+	background-color: #267CA5;
+}
+/*	作品展示	*/
+.works-gallery .title{
+	padding-top: 80px;
+	padding-bottom: 10px;
+	border-bottom: 4px double rgba(247, 197, 106, 0.35);
+	font-size: 36px;
+	text-align: center;
+	color: #008B8B;
+	font-weight: bold;
+	margin-bottom: 56px;
+}
+.work-show .shows{
+	display: block;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 310px;
+	height: 200px;
+	border-radius: 4px;
+	background-color: pink;
+	overflow: hidden;
+	position: relative;
+}
+.work-show .shows::before{
+	content: "林志科技网站 ";
+	color: #fff;
+	text-align: center;
+	line-height: 300px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background: rgba(0,0,0,.5);
+	z-index: 2;
+	transition:opacity 1s ease-in-out;
+}
+.work-show .shows:nth-child(2)::before{
+	content: "鹿鸣友小说网站 ";
+}
+.work-show .shows:nth-child(3)::before{
+	content: "日常练习 ";
+}
+.work-show .shows:hover::before{
+	opacity: 1;
+}
+.work-show .shows:hover::after{
+	opacity: .7;
+}
+.work-show .shows::after{
+	font-family: 'icomoon';
+	content: "\e2bc";
+	position: absolute;
+	left: 40%;
+	top:40%;
+	font-size: 50px;
+	color: #fff;
+	z-index: 3;
+	font-weight:300;
+	transform: rotate(-45deg);
+	opacity: .1;
+	transition:opacity 1s ease-in-out;
+}
+.work-show .shows:hover img{
+	transform: scale(1.1);
+}
+.work-show .shows img{
+	width: 100%;
+	height: 100%;
+	transition: all .5s linear;
+}
+.xingquaihao .title{
+	padding-top: 80px;
+	padding-bottom: 10px;
+	border-bottom: 4px double rgba(247, 197, 106, 0.35);
+	font-size: 36px;
+	text-align: center;
+	color: #008B8B;
+	font-weight: bold;
+	margin-bottom: 56px;
+}
+.xingquaihao p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	color: #666;
+	line-height: 40px;
+}
+.xingquaihao p span{
+	display: inline-block;
+	padding:10px 20px;
+	font-size: 24px;
+	color:tomato;
+	margin-bottom: 50px;
+}
+/*  entry */
+.entry{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	
+}
+.nav-wraps{
+	position: fixed;
+    top: 0;
+    right: 0;
+    padding-right: 40px;
+    height: 100%;
+    width: 200px;
+    z-index: 30;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.nav-items{
+	position: relative;
+	margin:20px 0px;
+	display: block;
+}
+.nav-items a.nav-link{
+	position: absolute;
+	right:0;
+	top:0;
+	width: 14px;
+	height: 14px;
+	background-color: rgba(0,0,0,.2);
+	border-radius: 50%;
+    transition: all .3s ease;
+    cursor: pointer;
+    text-align: center;
+    line-height: 14px;
+    font-size: 0px;
+    transition: transform 0.1s ease-out, background 0.2s, -webkit-transform 0.1s ease-out;
+}
+.nav-items a.nav-link:hover{
+	transform: scale(2);
+	opacity: 1;
+	background-color: rgba(0,0,0,.7);
+}
+.nav-items a.nav-link:hover::before{
+	font-size: 10px;
+}
+.nav-items a.nav-link:hover + span.description{
+	opacity: 1;
+	margin-right: 15px;
+}
+.nav-items a img{
+	width: 100%;
+	height: 100%;
+}
+.nav-items a.nav-link.active{
+	transform: scale(2);
+	opacity: 1;
+	background-color: rgba(0,0,0,.7);
+	font-size: 10px;
+}
+.nav-items span.description{
+	position: absolute;
+	right: 40px;
+    top: -6px;
+	display: inline-block;
+	padding: 4px 20px;
+	background:rgba(0,0,0,.7);
+	color: #fff;
+	 border-radius: 3px 0 0 3px;
+	 font-size: 12px;
+	 opacity: 0;
+	 font-weight: bold;
+}
+.nav-items span.description::after{
+	content: ' ';
+	width: 0;
+	display: block;
+	position: absolute;
+	height: 0;
+	top:0;
+	right:-24px;
+    border-left: 12px solid rgba(0,0,0,.7);
+    border-right: 12px solid transparent;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.contact-img{
+	margin-top:80px;
+}
+.contact-img img{
+}
+
+/*联系我们*/
+.xingquaihao p.contact-link{
+	margin-top:30px;
+}
+.xingquaihao p.contact-link span{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background-color: rgba(0,0,0,.2);
+	padding:0;
+	margin:0 20px;
+	
+}
+.xingquaihao p.contact-link span::before{
+	font-size: 40px;
+}
