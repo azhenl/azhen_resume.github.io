@@ -47,5 +47,30 @@ $(function(){
 		stage.on('contentClick', function(){
 			h.playAnimate();
 		});
+	
+	$(window).scroll(function(){
+			var docSccrollTop = $(document).scrollTop();
+			var h = document.documentElement.clientHeight;
+			if(docSccrollTop < h){
+				$(".nav-link").removeClass("active");
+				$("#nav_link").addClass("active");
+			}else if(docSccrollTop < 2*h){
+				$(".nav-link").removeClass("active");
+				$("#nav_link1").addClass("active");
+			}else if(docSccrollTop < 3*h){
+				$(".nav-link").removeClass("active");
+				$("#nav_link2").addClass("active");
+			}else if(docSccrollTop < 4*h){
+				$(".nav-link").removeClass("active");
+				$("#nav_link3").addClass("active");
+			}else if(docSccrollTop < 5*h){
+				$(".nav-link").removeClass("active");
+				$("#nav_link4").addClass("active");
+			}else if(docSccrollTop < 6*h){
+				$(".nav-link").removeClass("active");
+				$("#nav_link5").addClass("active");
+			}
+			//alert(docSccrollTop);
+			}
 
 })
