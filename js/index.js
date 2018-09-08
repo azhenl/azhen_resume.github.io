@@ -70,9 +70,7 @@ $(function(){
 				$(".nav-link").removeClass("active");
 				$("#nav_link5").addClass("active");
 			}
-			//alert(docSccrollTop);
 			}
 		)
- 
  
  })
