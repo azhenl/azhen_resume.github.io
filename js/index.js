@@ -7,6 +7,8 @@ $(function(){
 	$(".works-gallery").css("height",h);
 	$(".xingquaihao").css("height",h);
 	
+	
+	
 	//创建舞台
 		var stage = new Konva.Stage({
 			container: 'container',
@@ -47,15 +49,20 @@ $(function(){
 		stage.on('contentClick', function(){
 			h.playAnimate();
 		});
+		$(".nav-link").on("mousemove",function(){
+		$(".nav-link").removeClass("active");
+		$(this).addClass("active");		
+	})
+
 	
-	$(window).scroll(function(){
+		$(window).scroll(function(){
 			var docSccrollTop = $(document).scrollTop();
 			var h = document.documentElement.clientHeight;
 			if(docSccrollTop < h){
 				$(".nav-link").removeClass("active");
 				$("#nav_link").addClass("active");
 			}else if(docSccrollTop < 2*h){
-				$(".nav-link").removeClass("active");
+				$(".nav-link").removeClass("active");      
 				$("#nav_link1").addClass("active");
 			}else if(docSccrollTop < 3*h){
 				$(".nav-link").removeClass("active");
@@ -72,5 +79,5 @@ $(function(){
 			}
 			//alert(docSccrollTop);
 			}
-
+		)
 })
